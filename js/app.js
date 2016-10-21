@@ -1,11 +1,12 @@
 (function(){
     'use strict';
 
-    if(true){
-        let hello = "hello";
-    }
+    let hello = "hello";
+    let goodbye = "goodbye";
 
-    if(hello){
-        console.log(hello);
+    console.log(LiteralShortHand());
+    
+    function LiteralShortHand(){
+        return { hello, goodbye };
     }
 })();
