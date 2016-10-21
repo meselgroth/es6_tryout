@@ -1,4 +1,11 @@
 (function(){
     'use strict';
-    console.log(hello);
+
+    if(true){
+        let hello = "hello";
+    }
+
+    if(hello){
+        console.log(hello);
+    }
 })();
